@@ -1,0 +1,20 @@
+﻿<Window x:Class="WpfAppFtpClient.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfAppFtpClient"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="249" Width="564">
+    <Grid>
+        <Rectangle HorizontalAlignment="Left" Height="86" Margin="10,10,0,0" Stroke="Black" VerticalAlignment="Top" Width="195" Fill="#FFD0D0D0"/>
+        <Label x:Name="label" Content="Enter address: " HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="textBoxUrl" HorizontalAlignment="Left" Margin="134,14,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="60" Height="22" />
+        <TextBox x:Name="textBoxResult" HorizontalAlignment="Left" Margin="210,10,0,0" TextWrapping="Wrap" VerticalScrollBarVisibility="Visible" IsReadOnly="True" Text="Logs" VerticalAlignment="Top" Width="312" Height="189"/>
+        <Button x:Name="buttonDefault" Content="Default" HorizontalAlignment="Left" Margin="15,68,0,0" VerticalAlignment="Top" Click="buttonDefault_Click" Width="52"/>
+        <Button x:Name="button" Content="Download file" HorizontalAlignment="Left" Margin="72,68,0,0" Click="button_Click" VerticalAlignment="Top" Width="122"/>
+        <TextBox x:Name="textBoxRead" HorizontalAlignment="Left" Margin="95,14,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="34" Height="22" Text="ftp://" IsReadOnly="True"/>
+        <TextBox x:Name="textBoxFile" HorizontalAlignment="Left" Margin="105,41,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="89" Height="22"/>
+        <Label x:Name="label_Copy" Content="Enter file name: " HorizontalAlignment="Left" Margin="10,37,0,0" VerticalAlignment="Top"/>
+    </Grid>
+</Window>

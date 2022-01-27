@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "28b52134-468e-4f73-b35c-922ccb2b0406": {
+      "ProjectGuid": "28b52134-468e-4f73-b35c-922ccb2b0406",
+      "DisplayName": "WpfAppGeneratorICMP",
+      "ColorIndex": 0
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Прочие файлы",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 1
+}

@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "f3d4f178-bb6d-460e-bbdb-a6ca5b6aead5": {
+      "ProjectGuid": "f3d4f178-bb6d-460e-bbdb-a6ca5b6aead5",
+      "DisplayName": "WpfAppFtpClient",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

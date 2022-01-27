@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "e1169071-74d4-4c4d-a49d-95789fc2837e": {
+      "ProjectGuid": "e1169071-74d4-4c4d-a49d-95789fc2837e",
+      "DisplayName": "WpfAppMailSmtp",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "a5182c73-2015-45bf-831d-c7ecaf52b278": {
+      "ProjectGuid": "a5182c73-2015-45bf-831d-c7ecaf52b278",
+      "DisplayName": "WpfAppHttpClient",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

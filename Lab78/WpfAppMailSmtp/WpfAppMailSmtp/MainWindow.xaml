@@ -1,0 +1,35 @@
+﻿<Window x:Class="WpfAppMailSmtp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfAppMailSmtp"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="497" Width="476">
+    <Grid>
+        <Rectangle HorizontalAlignment="Left" Height="138" Margin="15,10,0,0" Stroke="Black" VerticalAlignment="Top" Width="213" Fill="#FFB3C2FF"/>
+        <Rectangle HorizontalAlignment="Left" Height="77" Margin="15,153,0,0" Stroke="Black" VerticalAlignment="Top" Width="213" Fill="#FFD4D4D4"/>
+        <Rectangle Margin="233,10,0,0" Stroke="Black" Fill="#FFFFE7B3" Height="438" VerticalAlignment="Top" HorizontalAlignment="Left" Width="211"/>
+        <Button x:Name="buttonSend" Content="Send" Click="buttonSend_Click" HorizontalAlignment="Left" Margin="15,428,0,0" VerticalAlignment="Top" Width="214"/>
+        <PasswordBox x:Name="textBoxMyPwd" HorizontalAlignment="Left" Margin="57,64,0,0"  VerticalAlignment="Top" Width="165" />
+        <TextBox x:Name="textBoxMyEmail" HorizontalAlignment="Left" Margin="58,40,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="164" />
+        <TextBox x:Name="textBoxTopic" HorizontalAlignment="Left" Margin="71,205,0,0" TextWrapping="Wrap" Text="My topic" VerticalAlignment="Top" Width="150"/>
+        <TextBox x:Name="textBoxEmail" HorizontalAlignment="Left" Margin="71,179,0,0" TextWrapping="Wrap" Text="test@test.ru" VerticalAlignment="Top" Width="150"/>
+        <Label x:Name="label" Content="Pwd" HorizontalAlignment="Left" Margin="15,60,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label_Copy" Content="User" HorizontalAlignment="Left" Margin="105,10,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label_Copy1" Content="Email" HorizontalAlignment="Left" Margin="15,36,0,0" VerticalAlignment="Top"/>
+
+        <Label x:Name="label_Copy4" Content="Letter" HorizontalAlignment="Left" Margin="105,153,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label_Copy5" Content="Topic" HorizontalAlignment="Left" Margin="15,201,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label_Copy6" Content="Send to" HorizontalAlignment="Left" Margin="15,175,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="textBoxLogs" HorizontalAlignment="Left" Margin="242,40,0,0" VerticalScrollBarVisibility="Visible" TextWrapping="Wrap" Text="Logs" VerticalAlignment="Top" Width="193" Height="398" IsReadOnly="True"/>
+        <Label x:Name="Logs" Content="Logs" HorizontalAlignment="Left" Margin="242,10,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="textBoxMessage" HorizontalAlignment="Left" Margin="15,232,0,0" TextWrapping="Wrap" Text="Your text here" VerticalAlignment="Top" Width="213" Height="191"/>
+        <Button x:Name="buttonDefault" Content="Set default" HorizontalAlignment="Left" Click="buttonDefault_Click" Margin="22,119,0,0" VerticalAlignment="Top" Width="200"/>
+        <Label x:Name="label_Copy2" Content="Name" HorizontalAlignment="Left" Margin="15,86,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="textBoxMyName" HorizontalAlignment="Left" Margin="57,90,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="165" />
+
+
+
+    </Grid>
+</Window>

@@ -1,0 +1,27 @@
+﻿<Window x:Class="WpfAppGeneratorICMP.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfAppGeneratorICMP"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="228" Width="449">
+    <Grid>
+        <TextBox x:Name="textBoxReceiver" HorizontalAlignment="Left" Margin="81,36,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="157"/>
+        <TextBox x:Name="textBoxCode" HorizontalAlignment="Left" Margin="81,82,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="157"/>
+        <TextBox x:Name="textBoxType" HorizontalAlignment="Left" Margin="81,59,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="157"/>
+        <TextBox x:Name="textBoxSender" HorizontalAlignment="Left" Margin="81,14,0,0" Text="127.0.0.1" TextWrapping="Wrap" VerticalAlignment="Top" Width="157" IsEnabled="False"/>
+        <TextBox x:Name="textBoxMessage" HorizontalAlignment="Left" Margin="81,105,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="157" Height="43"/>
+        <Label x:Name="label" Content="Sender" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label_Copy" Content="Receiver" HorizontalAlignment="Left" Margin="10,32,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label_Copy1" Content="ICMP Type" HorizontalAlignment="Left" Margin="10,55,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label_Copy2" Content="ICMP Code" HorizontalAlignment="Left" Margin="10,78,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label_Copy3" Content="Message" HorizontalAlignment="Left" Margin="10,98,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="textBoxLogs" HorizontalAlignment="Left" VerticalScrollBarVisibility="Visible" Margin="243,15,0,0" Text="Logs" TextWrapping="Wrap" VerticalAlignment="Top" Width="157" Height="158" IsEnabled="True" IsReadOnly="True"/>
+        <Button x:Name="buttonGenerate" Click="buttonGenerate_Click" Content="Generate" HorizontalAlignment="Left" Margin="81,153,0,0" VerticalAlignment="Top" Width="157"/>
+        <Button x:Name="buttonDefault" Content="Default" Click="buttonDefault_Click" HorizontalAlignment="Left" Margin="10,153,0,0" VerticalAlignment="Top" Width="66"/>
+
+    </Grid>
+    
+    
+</Window>
